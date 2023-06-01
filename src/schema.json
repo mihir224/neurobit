@@ -1,0 +1,51 @@
+{
+  "formats": ["json", "csv"],
+  "version": 1,
+  "channels": [
+    "channel-1",
+    "channel-2",
+    "channel-3",
+    "channel-4",
+    "channel-5",
+    "channel-6",
+    "channel-7",
+    "channel-8",
+    "channel-9",
+    "channel-9",
+    "channel-10"
+  ],
+  "options":[ 
+    "Elephant",
+    "Sunshine",
+    "Mountain",
+    "Whisper",
+    "Freedom",
+    "Radiant",
+    "Harmony",
+    "Serendipity",
+    "Tranquil",
+    "Enigma",
+    "Jubilant",
+    "Wanderlust"
+  ],
+  "options2":[
+    "A1",
+    "B4",
+    "C7",
+    "D2",
+    "E5",
+    "F8",
+    "G3",
+    "H6",
+    "J9",
+    "K12",
+    "L10",
+    "M11"
+  ],
+  "optionals": [
+    {
+      "optional1": true,
+      "optional2": true
+    }
+  ]
+}

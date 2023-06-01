@@ -1,0 +1,21 @@
+body{
+  font-family: 'poppins';
+  background-color: rgba(236, 238, 240, 0.726);
+
+}
+.App{
+  display: flex;
+  
+}
+#container{
+  width: 100%;
+}
+button{
+  cursor: pointer;
+  font-family: 'poppins';
+  
+}
+button:active{
+  transform: scale(0.9);
+  transition-duration: 0.1s;
+}

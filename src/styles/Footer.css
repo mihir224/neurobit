@@ -1,0 +1,47 @@
+#footer {
+    padding: 10px 50px;
+    
+}
+#footer-container{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.footer-btn{
+    border-radius: 6px;
+    padding:12px 40px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'poppins';
+    transition-duration:0.1s ;
+}  
+#back-btn{
+    background-color: inherit;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    opacity: 0.6;
+}
+#back-btn:hover{
+   opacity: 1;
+   border: 2px solid rgba(0, 0, 0,0.9);
+}
+#cancel-btn{
+    background: inherit;
+    border:2px solid transparent;
+    opacity: 0.6;
+}
+#next-btn{
+    background-color: rgb(38, 124, 204);
+    padding:12px 40px;
+    border: 2px solid transparent;
+    opacity: 0.9;
+    color:white;
+}
+#save-btn{
+    background-color: #11c201;
+    padding:12px 40px;
+    border: 2px solid transparent;
+    opacity: 0.9;
+    color:white;
+
+}

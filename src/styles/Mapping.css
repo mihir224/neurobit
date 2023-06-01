@@ -1,0 +1,66 @@
+#mapping{
+    padding: 10px 50px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Three columns with equal width */
+
+}
+.heading{
+    background-color: rgba(223, 236, 245, 0.726);
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+  .content{
+    background-color: white;
+    padding: 10px 30px;
+    margin-top: 22px;
+   
+    display: flex;
+    align-items: center;
+    
+  }
+  .content-dd{
+    background-color: rgba(228, 225, 225, 0.384);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .dd{
+      display: none;
+  }
+  #add-btn{
+      color:rgb(0, 119, 255);
+      border:1px solid transparent;
+      background-color: inherit;
+      display: flex;
+      align-items: center;
+      font-size: 15px;
+      font-weight: 500;
+  }
+  #delete-btn{
+    color:red;
+    border:1px solid transparent;
+    background-color: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 500;
+  }
+.select{
+    border: 1px solid rgba(0, 0, 0, 0.404);
+    border-radius: 4px;
+    text-align: left;
+    font-family: "poppins";
+    font-size: 14px;
+    cursor: pointer;  
+    height: 3em;  
+    width: 15em;
+    color:rgba(90, 89, 89, 0.767);
+
+}
+select:focus{
+    outline: none;
+}

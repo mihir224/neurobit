@@ -1,0 +1,52 @@
+#nav-bar{
+    background-color: #043d55;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    left: 0; /* Stick the navbar to the left side */
+    height: 100vh; /* Set the height to cover the full viewport height */
+    width: 35vh; /* Set the desired width for the navbar */
+    z-index: 999; 
+}
+hr{
+    width: 85%;
+    opacity: 0.6;
+    
+}
+#logo{
+    text-align: center;
+}
+#nav-list{
+    list-style: none;
+    padding: 20px 0px 20px 0px;
+}
+#nav-list>button{
+    background-color: inherit;
+    color:white;
+    border:1px solid transparent;
+    font-weight: 500;
+    font-size: 14px;
+    width: 100%;
+}
+#nav-list>button:focus{
+    background-color: #1874987c;
+}
+.nav-item{
+    display: flex;
+    gap:5px;
+    padding: 10px;
+    align-items: center;
+}
+#credits{
+    text-align: center;
+    background-color:#1874987c;
+    margin: 10px;
+    padding: 10px;
+    border-radius:3px ;
+}
+#credits>h3{
+    margin:0
+}
