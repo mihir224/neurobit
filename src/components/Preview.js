@@ -39,6 +39,15 @@ function Preview(){
             </div>
                 )
             })}
+            <div className="grid-container">
+                <div className="content">Additional Settings: </div>
+                    <div className="content">
+                   </div>
+                    <div className="content">
+
+                    </div>
+                    <div className="content"></div>
+            </div>
         </div>
     )
 }
