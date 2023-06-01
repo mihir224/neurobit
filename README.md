@@ -2,7 +2,7 @@
 
 This is a project that I made as a front-end assignment for [neurobit](https://www.neurobit.com). 
 
-The deployed website can be viewed [here] (https://mihir-neurobit.netlify.app/)
+The deployed website can be viewed [here](https://mihir-neurobit.netlify.app/)
 
 I have developed the whole website through the React framework, and have used redux to manage the state of channels mapped by the user ie all of the channels selected will be saved and can be reviewed by the user on the preview page. 
  
